@@ -31,7 +31,8 @@ jobs:
         run: |
           bunx wrangler r2 object put share/models.json \
             --file packages/web/dist/_api.json \
-            --content-type application/json
+            --content-type application/json \
+            --remote
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_DEFAULT_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_DEFAULT_ACCOUNT_ID }}
