@@ -1,0 +1,5 @@
+name = "Kiro Go Docker"
+env = ["KIRO_GO_DOCKER_API_KEY", "KIRO_GO_DOCKER_URL"]
+npm = "@ai-sdk/openai-compatible"
+api = "${KIRO_GO_DOCKER_URL}"
+doc = "https://github.com/Quorinex/Kiro-Go"
