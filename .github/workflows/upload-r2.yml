@@ -29,7 +29,7 @@ jobs:
 
       - name: Upload _api.json to R2
         run: |
-          bunx wrangler r2 object put share/models.json \
+          bunx wrangler r2 object put share/api.json \
             --file packages/web/dist/_api.json \
             --content-type application/json \
             --remote
