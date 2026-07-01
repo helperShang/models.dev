@@ -1,0 +1,24 @@
+name = "LongCat-2.0"
+release_date = "2026-06-01"
+last_updated = "2026-06-25"
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+open_weights = true
+
+[[reasoning_options]]
+type = "toggle"
+
+[cost]
+input = 0.75
+output = 2.95
+cache_read = 0.015
+
+[limit]
+context = 1_000_000
+output = 128_000
+
+[modalities]
+input = ["text", "image", "video"]
+output = ["text"]
