@@ -1,5 +1,5 @@
 name = "LongCat"
-env = ["LONG_CAT_API_KEY"]
 npm = "@ai-sdk/openai-compatible"
-doc = "https://longcat.chat/platform/"
-api = "https://api.longcat.chat/openai/v1"
+api = "https://api.longcat.chat/openai"
+env = ["LONGCAT_API_KEY"]
+doc = "https://longcat.chat/platform/docs/"
