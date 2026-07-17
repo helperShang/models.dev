@@ -1,4 +1,5 @@
 name = "Doubao Seed Code"
+description = "Seed model tuned for code generation, debugging, and software engineering tasks"
 family = "seed"
 release_date = "2026-06-26"
 last_updated = "2026-06-26"

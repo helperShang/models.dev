@@ -1,4 +1,5 @@
 name = "Doubao Seed 2.0 Code"
+description = "Flagship Seed model optimized for code generation and agentic programming workflows"
 family = "seed"
 release_date = "2026-06-26"
 last_updated = "2026-06-26"

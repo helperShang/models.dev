@@ -1,4 +1,5 @@
 name = "GLM Latest"
+description = "Open flagship GLM for long-horizon coding agents and million-token context work"
 family = "glm"
 release_date = "2026-06-26"
 last_updated = "2026-06-26"
